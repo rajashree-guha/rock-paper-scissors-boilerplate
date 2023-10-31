@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./assets/bg.png");
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+
+/* <---------------------index.html---------------------> */
+
+
+ /* logo  */
+#logo{
+    width: 500px;
+
+}
+/* aligning division of image and button */
+
+.align{
+    padding: 2% 0 0 20%;
+}
+
+/* header text  */
+#header-text{
+    color: rgb(84,50,197);
+    font-size: 60px ;
+    margin-top: 6% ;
+}
+/* button  */
+
+.button{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+#play-button{
+    width: 40px;
+    height: 40px;
+    margin: 0 20px 0 150px;
+}
+
+.end{
+    align-items: flex-end;
+}
+
+#button-text{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+
+
+/* <---------------------game.html----------------------> */
+
+
+body{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+/* score  */
+#score{
+    font-size: 80px;
+    margin: 5% 0 1% 0;
+    font-weight: bold;
+}
+
+/* player box  */
+.yellow-box{
+    width: 450px;
+    height: 450px;
+    border: 3px solid #F7BB3D;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+.column{
+    flex-direction: column;
+}
+
+/* buttons in player div  */
+.buttons>img{
+    width:90px ;
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* vs image  */
+#vs-image{
+   height: 550px;
+}
+
+/* play again button */
+#playAgain{
+    width: 130px;
+    height: 35px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #F7BB3D;
+    border: none;
+    border-radius: 5px;
+    margin:10px 0 ;
+    cursor: pointer;
+}
+
+#footer{
+    visibility: hidden;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="score">
+       <p ><span id="player-score"> 0 </span><span> - </span ><span id=computer-score> 0 </span></p>
+    </div>
+    <div class="flex space-evenly">
+        <div class=" flex space-between column yellow-box">
+            <p class="name">You</p>
+            <div id="player-image"><img id="player-img" src="" alt="" height="300"></div>
+            <div class ="buttons flex space-evenly">
+                <img id="rock" src="./assets/rock-logo.png" alt="rock">
+                <img id="paper" src="./assets/paper-logo.png" alt="paper">
+                <img id="scissor"src="./assets/scissors-logo.png" alt="scissor">
+            </div>
+        </div>
+        <div>
+            <img id="vs-image" src="assets\vs.png" alt="">
+        </div>
+        <div class="yellow-box">
+            <p class="name">Comp</p>
+            <div id="computer-image"><img id="computer-img" alt="" height="300"></div>
+        </div>
+    </div>
+    <div id="footer">
+      <h1 id="footer-h1"></h1>
+      <button id="playAgain">Play Again</button>
+    </div>
+
+
+</body>
+</html>
+<script src="game.js"></script>
